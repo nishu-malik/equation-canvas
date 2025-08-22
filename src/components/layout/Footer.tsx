@@ -1,4 +1,7 @@
-// Footer
 export default function Footer() {
-  return <footer>Footer</footer>;
+  return (
+    <footer className="bg-gray-800 text-white p-4 text-center">
+      © 2025 Equation Canvas
+    </footer>
+  );
 }

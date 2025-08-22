@@ -1,4 +1,4 @@
-// Core drawing/interaction canvas
+"use client";
 export default function EquationCanvas() {
-  return <div>Equation Canvas Component</div>;
+  return <canvas id="equationCanvas" width={500} height={200} className="border" />;
 }
