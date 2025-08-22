@@ -1,0 +1,15 @@
+/* styles/globals.css */
+
+/* Reset and normalize styles */
+@import "tailwindcss/preflight";
+
+/* Your custom layers */
+@import "tailwindcss/theme";
+@import "tailwindcss/utilities";
+
+/* Custom global styles */
+html,
+body {
+  height: 100%;
+  background-color: #f9fafb; /* example */
+}
